@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-width: 100%;
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    display: flex;
+    width: 70%;
+}
+
+header,
+.sectionOne,
+.sectionTwo,
+.sectionThree,
+.sectionFour,
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+header,
+.sectionOne,
+footer {
+    background-color: #1F2937;
+}
+
+.sectionThree {
+    background-color: #E5E7EB;
+}
+
+header .content {
+    justify-content: space-between;
+    gap: 10px;
+}
+
+header .left  {
+    font-size: 24px;
+    color: #F9FAF8;
+    padding: 25px 0px;
+}
+
+header .right {
+    padding: 25px 0px;
+}
+
+header .content .right ul{
+    display: flex;
+    gap: 15px;
+    color: white;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+header .content .right li a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 10px 5px;
+    border-radius: 10px;
+}
+
+header .content .right li a:hover{
+    color: #1F2937;
+    background-color: #F9FAF8;
+}
+
+.sectionOne .content {
+    margin: 80px 0px;
+    flex-wrap: wrap;
+}
+
+.sectionOne .content .left {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-bottom: 30px;
+    flex: 1 0 auto;
+}
+
+.sectionOne .content .left h1{
+    color: #F9FAF8;
+    margin: 5px 10px 5px 0px;
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.sectionOne .content .left p{
+    font-size: 18px;
+    color: #F9FAF8;
+    margin: 5px 25px 15px 0px;
+}
+
+.sectionOne .content .left button{
+    width:fit-content;
+    padding: 8px 35px;
+    color: white;
+    background-color: #3882F6;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    
+}
+
+.sectionOne .content .right {
+    display: flex;
+    max-width: 100%;
+    flex: 1 0 300px;
+}
+
+.sectionOne .content .right img {
+    max-width: 100%;
+    min-width:  100px;
+    object-fit: contain;
+}
+
+.sectionTwo .content {
+    flex-direction: column;
+    margin: 30px 0px 60px 0px;
+}
+
+.sectionTwo .content h2{
+    text-align: center;
+}
+
+.sectionTwo .content .bottom {
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.sectionTwo .content .bottom .cards {
+    max-width: 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+    color: #1F2937;
+    margin-bottom: 25px;
+}
+
+.sectionTwo .content .bottom .cards img{
+    max-width: 100%;
+    object-fit: contain;
+}
+
+.sectionThree .content {
+    margin: 80px 0px;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: center;
+}
+
+.sectionThree .content .left {
+    display: flex;
+    align-items: center;
+}
+
+.sectionThree .content .left img{
+    max-width: 150px;
+}
+
+.sectionThree .content .right {
+    width: 500px;
+    font-size: large;
+}
+
+.sectionThree .content .right .top{
+    padding: 15px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+    text-align: justify;
+}
+
+.sectionThree .content .right .bottom {
+    text-align: end;
+    color: #222222;
+    font-weight: bolder;
+    padding-right: 50px;
+}
+
+.sectionFour .content .card {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #3882F6;
+    width: 100%;
+    border-radius: 5px;
+    justify-content: space-evenly;
+    margin: 50px 0px 50px 0px;
+
+    
+    padding: 10px 10px;
+    /* gap: 100px; */
+    
+}
+
+.sectionFour .content .card .left {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 30px 0px 30px 0px;
+}
+
+.sectionFour .content .card .left .top{
+    color: white;
+    font-weight: bolder;
+    font-size: 36px;
+}
+
+.sectionFour .content .card .left .bottom{
+    color: white;
+}
+
+.sectionFour .content .card .right {
+    display: flex;
+    align-items: center;
+}
+
+.sectionFour .content .card .right button{
+    color: white;
+    background-color: #3882F6;
+    border-radius: 5px;
+    border-color: white;
+    font-size: large;
+    padding: 6px 25px;
+    margin-bottom: 25px;
+    border-style: solid;
+}
+
+
+
+
+footer .content {
+    color: #E5E7EB;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 50px;
+}
+
